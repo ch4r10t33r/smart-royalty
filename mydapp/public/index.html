@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Artefact Signing App</title>
+    <link rel="stylesheet" href="stylesheets/style.css"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <pre>
+      <h2>Upload the audio file to sign the same</h2>
+      <form method="post" enctype="multipart/form-data" action="http://localhost:3000/">
+        <table>
+          <tr>
+            <th>Artefact:</th>
+            <td><input type="file" id="artefact" name="artefact"/></td>
+          </tr>
+          <tr>
+            <th><input type="submit" value="Upload"/></th><th><input type="reset" value="Clear"/></th>
+          </tr>
+        </table>
+      </form>
+    </pre>
+  </body>
+</html>
